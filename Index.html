@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sanjiwani Model Secondary School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sanjiwani Model Secondary School</h1>
+    <h2>First Terminal Examination 2082</h2>
+
+    <form id="markForm">
+      <div class="form-row">
+        <label for="class">Class</label>
+        <select id="class" required></select>
+      </div>
+      <div class="form-row">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" required>
+      </div>
+      <div class="form-row">
+        <label for="type">Type</label>
+        <select id="type" required>
+          <option value="Theory">Theory</option>
+          <option value="Practical">Practical</option>
+        </select>
+      </div>
+
+      <div id="marksArea"></div>
+
+      <button type="submit" id="submitBtn">Submit</button>
+      <p id="statusMsg"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
